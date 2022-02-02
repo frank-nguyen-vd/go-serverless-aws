@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="172a981b-5b8c-4bd6-8932-8cdc1443e19f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/go-serverless-aws.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/handlers/api_response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/handlers/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/user/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/validators/is_email_valid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/LICENSE-LAMBDACODE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/LICENSE-SUMMARY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_ALBTargetGroupEvents.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_ApiGatewayCustomAuthorizer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_ApiGatewayEvent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_AutoScaling.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Chime_Bots.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_ClientVPN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_CloudWatch_Events.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_CloudWatch_Logs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_CodeBuild.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_CodeCommit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_CodeDeploy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Cognito.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Cognito_UserPools_CustomAuthLambdaTriggers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Cognito_UserPools_PostConfirmation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Cognito_UserPools_PreAuthentication.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Cognito_UserPools_PreSignup.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Cognito_UserPools_PreTokenGen.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Config.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Connect.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_DynamoDB.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Kinesis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_KinesisDataAnalytics.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_KinesisFirehose.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_Lex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_S3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_S3_Batch_Job.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_SES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_SNS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/README_SQS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/activemq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/alb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/apigw.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/appsync.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/attributevalue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/autoscaling.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/chime_bot.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/clientvpn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/cloudwatch_events.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/cloudwatch_logs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/code_commit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/codebuild.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/codedeploy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/codepipeline.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/codepipeline_cloudwatch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/codepipeline_job.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/cognito.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/connect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/duration.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/dynamodb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/ecr_scan.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/epoch_time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/firehose.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/iot.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/iot_1_click.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/iot_button.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/kafka.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/kinesis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/kinesis_analytics.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/lex.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/rabbitmq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/s3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/s3_batch_job.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/ses.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/sns.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/sqs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-lambda-go/events/streams.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/NOTICE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/awserr/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/awserr/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/awsutil/copy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/awsutil/equal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/awsutil/path_value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/awsutil/prettify.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/awsutil/string_value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/client/default_retryer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/client/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/client/metadata/client_info.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/client/no_op_retryer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/context_1_5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/context_1_9.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/context_background_1_5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/context_background_1_7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/context_sleep.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/convert_types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/corehandlers/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/corehandlers/param_validator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/corehandlers/user_agent.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/chain_provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/context_background_go1.5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/context_background_go1.7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/context_go1.5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/context_go1.9.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/credentials.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds/ec2_role_provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/endpointcreds/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/env_provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/example.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/processcreds/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/shared_credentials_provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/ssocreds/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/ssocreds/os.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/ssocreds/os_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/ssocreds/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/static_provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/stscreds/assume_role_provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/credentials/stscreds/web_identity_provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/crr/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/crr/endpoint.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/crr/sync_map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/crr/sync_map_1_8.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/csm/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/csm/enable.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/csm/metric.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/csm/metric_chan.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/csm/metric_exception.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/csm/reporter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/defaults/defaults.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/defaults/shared_config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/ec2metadata/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/ec2metadata/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/ec2metadata/token_provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/endpoints/decode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/endpoints/defaults.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/endpoints/dep_service_ids.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/endpoints/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/endpoints/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/endpoints/legacy_regions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/endpoints/v3model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/endpoints/v3model_codegen.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/jsonvalue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/connection_reset_error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/http_request.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/offset_reader.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/request.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/request_1_7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/request_1_8.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/request_context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/request_context_1_6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/request_pagination.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/retryer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/timeout_read_closer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/validation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/request/waiter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/session/credentials.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/session/custom_transport.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/session/custom_transport_go1.12.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/session/custom_transport_go1.5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/session/custom_transport_go1.6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/session/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/session/env_config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/session/session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/session/shared_config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/signer/v4/header_rules.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/signer/v4/options.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/signer/v4/request_context_go1.5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/signer/v4/request_context_go1.7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/signer/v4/stream.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/signer/v4/uri_path.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/signer/v4/v4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/url.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/url_1_7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/aws/version.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/context/background_go1.5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/ast.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/comma_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/comment_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/empty_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/expression.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/fuzz.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/ini.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/ini_lexer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/ini_parser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/literal_tokens.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/newline_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/number_helper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/op_tokens.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/parse_error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/parse_stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/sep_tokens.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/skipper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/statement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/value_util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/visitor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/walker.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/ini/ws_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sdkio/byte.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sdkio/io_go1.6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sdkio/io_go1.7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sdkmath/floor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sdkmath/floor_go1.9.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sdkrand/locked_source.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sdkrand/read.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sdkrand/read_1_5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sdkuri/path.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/shareddefaults/ecs_container.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/shareddefaults/shared_config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/strings/strings.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sync/singleflight/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/internal/sync/singleflight/singleflight.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/host.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/host_prefix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/idempotency.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/json/jsonutil/build.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/json/jsonutil/unmarshal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/jsonrpc/jsonrpc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/jsonrpc/unmarshal_error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/jsonvalue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/payload.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/protocol.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/query/build.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/query/queryutil/queryutil.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/query/unmarshal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/query/unmarshal_error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/rest/build.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/rest/payload.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/rest/unmarshal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/restjson/restjson.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/restjson/unmarshal_error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/timestamp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/unmarshal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/unmarshal_error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil/build.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil/sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil/unmarshal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil/xml_to_struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/dynamodb/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/dynamodb/customizations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/dynamodb/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/dynamodb/doc_custom.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/dynamodb/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/dynamodb/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/dynamodb/waiters.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/lambda/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/lambda/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/lambda/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/lambda/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/lambda/waiters.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sso/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sso/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sso/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sso/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sso/ssoiface/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sts/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sts/customizations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sts/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sts/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sts/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/aws/aws-sdk-go/service/sts/stsiface/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/astnodetype_string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/functions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/interpreter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/lexer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/parser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/toktype_string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jmespath/go-jmespath/util.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7221f8dc-15e8-4574-88e5-81bfeb5e065e" />
+        <option name="url" value="https://github.com/frank-nguyen-vd/go-serverless-aws.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="GoDepProject">
+    <exec-path>$PROJECT_DIR$/../../bin/dep</exec-path>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24XMHWLveQlcDrMBjDvLaQ1Xwiu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <auto-vendoring-mode>false</auto-vendoring-mode>
+    <environment>
+      <map>
+        <entry key="GO111MODULE" value="off" />
+      </map>
+    </environment>
+  </component>
+</project>
